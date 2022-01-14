@@ -12,10 +12,9 @@ GAME SALES ANALYSIS
 3-Folder layout
     Base
      |
-     |--->data
-     |     |--->Games.csv
      |--->src
      |     |--->assignment4.py
+     |     |--->Games.csv
      |--->Pipfile
      |--->Pipfile.Lock
      |--->Procfile(for heroku deployment)
@@ -23,6 +22,5 @@ GAME SALES ANALYSIS
      |--->Setup.sh(for heroku deployment)
      |--->Readme.md
 
-4-Run
-    -cd src
-    -python3 streamlit assignment4.py
+4-Run 
+    -streamlit run src/assignment4.py

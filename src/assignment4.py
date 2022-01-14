@@ -53,7 +53,7 @@ def sales_analyis(game_data):
 
 if __name__=="__main__":
     st.title("Game Sales Analysis")
-    data = pd.read_csv('Games.csv')
+    data = pd.read_csv('src/Games.csv')
     dataset_info(data)
     conclusion = analysis(data,"Genre")
     conclusion+= analysis(data,"Developer")
